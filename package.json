@@ -11,5 +11,10 @@
   "description": "",
   "dependencies": {
     "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "babel-plugin-module-resolver": "^5.0.2"
   }
 }
