@@ -1,4 +1,4 @@
-import pool from '@/lib/db';
+import pool from '../../lib/db'; // Use relative path for now
 
 export default async function handler(req, res) {
   if (req.method !== 'DELETE') return res.status(405).end('Method Not Allowed');
